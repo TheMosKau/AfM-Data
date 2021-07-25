@@ -80,7 +80,8 @@ FastBreak BreakDamage 0.8
 FastUse Mode AAC
 FastUse Delay 91
 
-Fly Mode Hypixel
+Fly Mode Vanilla
+Fly Vanilla-Speed 2.5
 Fly Hypixel-Boost false
 Fly Hypixel-BoostDelay 750
 Fly Hypixel-BoostTimer 5.0
@@ -111,17 +112,17 @@ InventoryMove NoMoveClicks false
 KillAura MaxCPS 12
 KillAura MinCPS 9
 KillAura HurtTime 5
-KillAura Range 3.3
+KillAura Range 3.5
 KillAura ThroughWallsRange 4.1
 KillAura RangeSprintReducement 0
 KillAura Priority Health
 KillAura TargetMode Single
 KillAura Swing true
 KillAura KeepSprint false
-KillAura AutoBlock false
+KillAura AutoBlock NCP
 KillAura InteractAutoBlock false
 KillAura DelayedBlock false
-KillAura BlockRate 100
+KillAura BlockRate 90
 KillAura RayCast false
 KillAura RayCastIgnored true
 KillAura LivingRayCast false
@@ -195,7 +196,7 @@ Scaffold AirSafe false
 
 # There should be some other working modes ... but too lazy to try every mode.
 # b71 (https://github.com/CCBlueX/LiquidBounce1.8-Issues/issues/3574)
-Tower Mode ConstantMotion
+Tower Mode MotionTP
 Tower AutoBlock true
 Tower StayAutoBlock true
 Tower Swing true
@@ -214,7 +215,7 @@ Tower ConstantMotionJumpGround 0.99
 Sneak Mode Switch
 Sneak StopMove true
 
-Speed Mode HypixelHop
+Speed Mode HypixelSafe
 
 # Sprint AllDirections bypassing
 Sprint AllDirections false
@@ -241,7 +242,7 @@ Timer Speed 1.1
 
 Velocity Horizontal 0.0
 Velocity Vertical 0.0
-Velocity Mode Simple
+Velocity Mode Normal
 
 # Toggles
 
@@ -251,7 +252,7 @@ AutoArmor toggle true
 Velocity toggle true
 Sprint toggle true
 PingSpoof toggle true
-NoSlow toggle false
+NoSlow toggle true
 InventoryMove toggle true
 LongJump toggle false
 FastClimb toggle false
@@ -268,17 +269,16 @@ targetInvisible false
 targetDead false
 
 # Chat
-unchat &c&lWARNING! &bPlease execute .panic nonrender before loading settings!
+unchat &c&lWARNING! &bPlease type .panic nonrender before loading settings!
 unchat &r
 unchat &r
 unchat &r
 unchat &r
 unchat &r
-unchat &r                   &7→ &c&lHYPIXEL SETTINGS &7| &b27/06/2020 &7←
+unchat &r                   &7→ &c&lHYPIXEL SETTINGS &7| &b25/07/2021 &7←
 unchat &r                &3&lTower &a, &3&lStep &a& &3&lNoFall are bypassing fine!
-unchat &r          &aCheck out the Fly Script: &e&lhttps://forum.ccbluex.net/thread.php?id=3123
-unchat &r            &cDo not use Fly, LongJump, packet criticals or other step than jump!
-unchat &r               &aNote: &cThis settings are made for LiquidBounce Build72
+unchat &r            &cDo not use Fly if not have enderpearl, tnt and fireball.
+unchat &r               &aNote: &cThis settings are made for AfM 1.1
 unchat &r                &cBypasses seem to be semi-patched. Use at your own risk
 unchat &r
 unchat &r                     &aJOIN US: &3https://discord.gg/gdQ82He
