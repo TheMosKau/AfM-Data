@@ -1,5 +1,5 @@
 #Autosettings for minemen.club
-Aimbot Range 4.4
+Aimbot Range 4.0
 Aimbot TurnSpeed 180.0
 Aimbot FOV 180.0
 Aimbot Center true
@@ -90,10 +90,10 @@ BufferSpeed HeadBlockBoost 1.87
 BufferSpeed Slime true
 BufferSpeed AirStrafe false
 BufferSpeed NoHurt true
-BugUp Mode FlyFlag
-BugUp MaxFallDistance 10
-BugUp MaxDistanceToSetback 2.5
-BugUp Indicator true
+Antivoid Mode NCP
+Antivoid MaxFallDistance 10
+Antivoid MaxDistanceToSetback 2.5
+Antivoid Indicator true
 ChestAura Range 5.0
 ChestAura Delay 100
 ChestAura ThroughWalls true
@@ -316,7 +316,7 @@ Scaffold Eagle true
 Scaffold EagleSilent false
 Scaffold BlocksToEagle 0
 Scaffold ExpandLength 5
-Scaffold Rotations true
+Scaffold Rotations StaticYaw
 Scaffold KeepRotationLength 10
 Scaffold KeepRotation true
 Scaffold Zitter false
@@ -351,7 +351,7 @@ Sneak Mode MineSecure
 Sneak StopMove false
 
 # BHop patched
-Speed Mode Custom
+Speed Mode MinemenTest
 Speed CustomSpeed 0.0
 Speed CustomY 0.0
 Speed CustomTimer 1.0
@@ -415,13 +415,13 @@ Trigger MinCPS 5
 # Working Velocity
 Velocity Horizontal 0.6
 Velocity Vertical 0.6
-Velocity Mode Jump
+Velocity Mode HeroMC
 Velocity ReverseStrength 1.0
 Velocity Reverse2Strength 0.05
 Velocity AACPushXZReducer 2.0
 Velocity AACPushYReducer true
 
-WallClimb Mode Simple
+WallClimb Mode Clip
 WallClimb ClipMode Fast
 WallClimb CheckerClimbMotion 0.0
 WaterSpeed Speed 1.0
