@@ -81,20 +81,6 @@ AutoSoup SimulateInventory true
 AutoSoup Bowl Drop
 AutoWeapon SpoofItem false
 AutoWeapon SpoofTicks 10
-BaguetteFly Mode Redesky5
-BaguetteFly AntiAC-Boost false
-BaguetteFly ACR-Ticks 7
-BaguetteFly ACR-MotionY 0.03
-BaguetteFly BrwSpeed 21.49
-BaguetteFly BrwTimer 2.0
-BaguetteFly RedeskyY 1.54
-BaguetteFly RedeskyBoost 9.3
-BaguetteFly Redesky5Boost 3.0
-BaguetteFly Redesky5Y 10.0
-BaguetteFly RedeskyUseBlink false
-BaguetteFly RedeskyTimerBoost false
-BaguetteFly RedeskyTimer 1.05
-BaguetteFly ToggleMessage false
 Blink Pulse false
 Blink PulseDelay 1000
 BlockWalk Cobweb true
@@ -241,37 +227,6 @@ InventoryCleaner SortSlot-6 None
 InventoryCleaner SortSlot-7 Food
 InventoryCleaner SortSlot-8 Block
 InventoryCleaner SortSlot-9 Block
-InventoryManager LobbyDetection true
-InventoryManager NoWindowPackets true
-InventoryManager InvOpen None
-InventoryManager MaxInvDelay 50
-InventoryManager MinInvDelay 50
-InventoryManager MaxStealDelay 50
-InventoryManager MinStealDelay 50
-InventoryManager StartDelay 100
-InventoryManager CloseDelay 100
-InventoryManager OpenInterval 500
-InventoryManager OpenRange 5.0
-InventoryManager OpenWallsRange 5.0
-InventoryManager IgnoreLootedChests true
-InventoryManager OpenSwing None
-InventoryManager Rotations None
-InventoryManager RotationDuration 1
-InventoryManager HealthToHealAt 15
-InventoryManager ThrowDelay 500
-InventoryManager NoAttackDelay 500
-InventoryManager Slot1 Sword
-InventoryManager Slot2 Pickaxe
-InventoryManager Slot3 Spade
-InventoryManager Slot4 Axe
-InventoryManager Slot5 Bow
-InventoryManager Slot6 Golden Apple, Food
-InventoryManager Slot7 Splash Potion, Ender Pearl
-InventoryManager Slot8 Bucket, Block
-InventoryManager Slot9 Block
-InventoryManager ModifyListings 
-InventoryManager Whitelist 
-InventoryManager Blacklist 
 InventoryMove Undetectable false
 InventoryMove AACAdditionPro true
 InventoryMove NoMoveClicks false
@@ -284,13 +239,14 @@ KillAura MaxCPS 11
 KillAura MinCPS 8
 KillAura HurtTime 10
 KillAura Cooldown-(1.12 ver) 1.0
-KillAura Range 3.88
+KillAura Range 3.95
 KillAura WallsRange 3.0
 KillAura SprintReducement 0.0
 KillAura Priority Direction
 KillAura TargetMode Switch
 KillAura Swing true
 KillAura KeepSprint false
+# Don't use vanilla autoblock or any autoblock, it flag
 KillAura AutoBlock Off
 KillAura InteractAutoBlock false
 KillAura Block% 100
@@ -396,7 +352,7 @@ Regen NoAir false
 Regen PotionEffect false
 ReverseStep Motion 1.0
 SafeWalk AirSafe false
-Scaffold Mode Expand
+Scaffold Mode Normal
 Scaffold MaxDelay 0
 Scaffold MinDelay 0
 Scaffold PlaceableDelay false
@@ -544,3 +500,15 @@ WaterSpeed Speed 1.2
 Zoot BadEffects true
 Zoot Fire true
 Zoot NoAir false
+# chat
+chat &6[Autodie for mossware 1.1+ online client config]
+chat &aMade by &fmoskau &c(DEV)
+chat &aPlease &cDON'T USE &aAutoblock in killaura settings
+chat &aMode that safe: fly, killaura, velocity (some time flag) and scaffold
+chat &cModule that not safe: Teleport, itemteleport and speed
+chat &aMatrixLastestBoat fly still work in normally matrix anticheat
+chat &eTips: &aIn pika network there no % that u can get wood in chest
+chat &aSo u need to cut wood yourself.
+chat 
+chat &bFeel free to improve this config and send in &9Discord!
+chat &eThanks for using &bAutodie for mossware &c❤️
